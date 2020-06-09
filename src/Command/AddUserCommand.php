@@ -78,7 +78,7 @@ class AddUserCommand extends Command
     protected function configure(): void
     {
         $this
-            ->setDescription('Creates users and stores them in the database')
+            ->setDescription('Creates users and stores them in the database. Use it with caution')
             ->setHelp($this->getCommandHelp())
             // commands can optionally define arguments and/or options (mandatory and optional)
             // see https://symfony.com/doc/current/components/console/console_arguments.html
